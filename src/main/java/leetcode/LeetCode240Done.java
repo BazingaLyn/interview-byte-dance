@@ -4,7 +4,7 @@ package leetcode;
 /**
  *
  */
-public class LeetCode240 {
+public class LeetCode240Done {
 
     public boolean searchMatrix(int[][] matrix,int target){
         if(matrix == null || matrix.length < 1 ||matrix[0].length < 1){

@@ -18,8 +18,8 @@ public class LeetCode102Done {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.add(root);
-        while(!res.isEmpty()){
-            int count = res.size();
+        while(!queue.isEmpty()){
+            int count = queue.size();
             List<Integer> list = new ArrayList<Integer>();
             while(count > 0){
                 TreeNode treeNode = queue.poll();

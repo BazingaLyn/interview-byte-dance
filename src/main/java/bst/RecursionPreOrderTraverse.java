@@ -49,6 +49,31 @@ public class RecursionPreOrderTraverse {
     }
 
 
+
+
+    public static void levelTraverse2(TreeNode root){
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void levelTraverse(TreeNode root){
 
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
